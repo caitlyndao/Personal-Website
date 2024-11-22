@@ -1,0 +1,155 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+
+        .details-container {
+            width: 10rem;
+            
+        }
+
+    #profile, 
+    .section-container {
+        display:block;      
+
+    }
+    .arrow {
+        display: none;
+    
+    }
+
+    section, .section-container{
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+
+    
+ article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 1rem;
+ 
+ }
+    .text-container {
+    
+    
+    width: 90%;
+    margin: 0;
+    margin-bottom: 70rem; 
+    padding: 1rem;
+    text-align: left;
+    overflow: wrap;
+    hyphens: auto;
+    }  
+
+
+    .section__pic__container {
+        width: 275px;
+        height: 275px;
+        margin:0 auto 2rem;
+
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #contact {
+        display: block;
+       
+        height: auto;
+        min-height: 30vh; 
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 10rem;
+        
+    }
+    
+    footer {
+        height: 40vh;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 10rem;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    .about-containers, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+       
+}
+
+
+.contact-info-upper-container {
+    
+    margin-bottom: 50rem;
+ }
+
+.contact-info-container {
+    margin: 0;
+}
+
+.contact-info-container{
+    margin: 0;
+}
+
+.contact-info-container p,
+.nav-links a {
+    font-size: 1rem;
+}
+.experience-sub-title {
+    font-size: 1.25rem;
+}
+
+.logo {
+font-size: 1.5rem;
+
+}
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+        
+    }
+    .title {
+        font-size: clamp(2rem, 5vh, 3rem);
+    }
+    .text-container {
+       text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+        pad: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
